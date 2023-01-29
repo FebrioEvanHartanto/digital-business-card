@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+*{
+  box-sizing:border-box;
+  font-family:"Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin:10px 0;
+  padding:0;
+  height:100vh;
+  background-color:#23252C;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+  overflow:hidden;
+  width:30%;
+  margin:auto;
+  border-radius:20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.about-div, .info-div{
+  background-color: #1A1B21;
+}
+
+.info-div{
+  text-align:center;
+  line-height:2rem;
+}
+
+.info > h1 {
+  margin: 0;
+}
+
+.about-div{
+  padding: 10px 20px;
+  color:white;
+  font-weight:300;
+}
+
+.about-div > p {
+  color:#DCDCDC;
+}
+
+.photo-div{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background:#b91722;
+  
+}
+
+.photo-div > img{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:40%;
+  height: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+.info-div > h1{
+ padding-top:20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  color:#FFFFFF;
 }
+
+h3{
+  margin:0;
+  color:#FFFFFF;
+}
+
+h4{
+  color:#F5F5F5;
+}
+
+.linkedin-btn  a{
+  text-decoration: none;
+  color:white;
+}
+
+.pos{
+  color:#F3BF99;
+}
+
+button > img {
+ width:20px;
+ height:20px;
+ margin-right:10px;
+}
+
+button{
+  display:inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size:1rem;
+  margin: 20px 10px;
+  padding:10px 40px;
+  font-family:"Inter", sans-serif;
+}
+
+.mail-btn{
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+}
+
+.linkedin-btn{
+  border-radius:10px;
+  border:none;
+  background-color: #5093E2;
+  color:white;
+  cursor:pointer;
+}
+
+footer{
+  background-color: #161619;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-bottom:20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+footer > h1{
+  margin:0 0 20px 0;
+}
+
+footer > img {
+  margin: 0 20px;
+  width:2rem;
+}
+
